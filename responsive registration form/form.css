@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 100%, 74%);
+    color: #f0f0f0;
+    border-radius: 10px;
+    overflow: 0;
+    width: 50%;
+    padding-left: 20%;
+}
+
+
+main{
+    color: hsl(0, 0%, 95%);
+    width: 50%;
+    margin: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    line-height: 1.7;
+    font-family: Poppins;
+    font-size: 16px;
+    padding-bottom: 2em;
+    @font-face {
+        font-family: 'Poppins';
+        src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    }
+}
+
+.background-image{
+    background-position: center center;
+    background-size: cover ;
+    height: 460px;
+    text-align: center;
+    padding-top: 50px;
+    border: 5px #aa2722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:375px){
+    .background-image{
+        flex-direction: column;
+    }
+@media screen and (max-width: 1440px) and (min-width: 376px)
+{
+  .background-image{flex-direction: row;}  
+} 
+}
+.text h2{
+    /* font-size: 16px; */
+    font-weight: 700;
+    color: white;
+    margin:10px;
+    padding-top: 0;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+.container{
+    padding: 2em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+}
+.top-row{
+    background-color: hsl(248, 32%, 49%);
+    padding: 1em;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-body {
+    display: flex;
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+    margin: 10px 5px;
+    line-height: 1.7;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.input-group{
+    flex: 1;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+
+button{ 
+    background-color: #13b356;
+    padding: 5px 10px;
+    margin-top: 20px;
+    width: 100%;
+    color: #f0f0f0;
+    border-radius: 10px;
+}
+.input-group p{ 
+    color: hsl(249, 10%, 26%);
+}
+a{
+    color: #aa2722;
+} 
