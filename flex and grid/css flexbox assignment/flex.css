@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    padding-top: 90px;
+}
+@media screen and (max-width: 1440px) and (min-width: 375px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        padding-top: 90px;
+    }
+}
+    
+
+main{
+    color: hsl(0, 0%, 95%);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    line-height: 1.7;
+    font-family: lexend deca;
+    font-weight: 400;
+}
+.image{
+    padding-bottom: 1em;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+}
+.sedans h3{
+    padding-bottom: 1em;
+    font-weight: 400;
+    @font-face { 
+        font-family: 'Big Shoulders Display';
+        src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+    }; 
+}
+.sedans p{
+    color: hsl(0, 0%, 100%, 0.75);
+    padding-bottom: 4em;
+    font-weight: 400;
+    font-size: 15px;
+}
+.sedans button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    width: 80%;
+    height: 10%;
+    font-weight: 400;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+}
+.suv h3{
+    padding-bottom: 1em;
+    font-weight: 400;
+    @font-face { 
+        font-family: 'Big Shoulders Display', cursive;
+        src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");}
+}
+.suv p{
+    color: hsl(0, 0%, 100%, 0.75);
+    padding-bottom: 4em;
+    font-weight: 400;
+    font-size: 15px;
+}
+.suv button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    width: 80%;
+    height: 10%;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+    
+}
+.luxury h3{
+    padding-bottom: 1em;
+    font-weight: 400;
+    @font-face {
+        font-family: 'Big Shoulders Display';
+        src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+    }
+}
+.luxury p{
+    color: hsl(0, 0%, 100%, 0.75);
+    padding-bottom: 4em;
+    font-weight: 400;
+    font-size: 15px;
+}
+.luxury button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    width: 80%;
+    height: 10%;
+}
