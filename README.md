@@ -10,6 +10,14 @@ https://github.com/BlessingSimon18/HTML-AND-CSS-FILES/blob/main/flex%20and%20gri
 Responsive landing page: index.html :
 https://github.com/BlessingSimon18/HTML-AND-CSS-FILES/blob/main/ResponsivelandingPage/index.html
 It's style.css:
+https://github.com/BlessingSimon18/HTML-AND-CSS-FILES/blob/main/ResponsivelandingPage/style.css
+
+
+
+The Responsiveform:
+Index.html: 
+
+style.html: 
 
 
 
